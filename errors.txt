@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script/loopylooploop/loopylooploop.rpy", line 49: 'xaling' is not a keyword argument or valid child of the textbutton statement.
+    xaling 0.5
+          ^
+
+Ren'Py Version: Ren'Py 8.1.0.23051307
+Sun Jun 25 10:40:53 2023

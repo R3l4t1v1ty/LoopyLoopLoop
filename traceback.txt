@@ -1,0 +1,34 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script/loopylooploop/loopylooploop.rpy", line 54, in script
+    $ loopy = LoopyLoopLoop(
+  File "game/script/loopylooploop/loopylooploop.rpy", line 54, in <module>
+    $ loopy = LoopyLoopLoop(
+  File "game/script/loopylooploop/loopylooploop_py.rpy", line 21, in __init__
+    self.shuffle()
+  File "game/script/loopylooploop/loopylooploop_py.rpy", line 49, in shuffle
+    self.tileset[i][j].angle = random.randint(0,3)
+AttributeError: 'NoneType' object has no attribute 'angle'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script/loopylooploop/loopylooploop.rpy", line 54, in script
+    $ loopy = LoopyLoopLoop(
+  File "C:\Users\Bogdan\Downloads\renpy-8.0.3-sdk\renpy\ast.py", line 1138, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\Bogdan\Downloads\renpy-8.0.3-sdk\renpy\python.py", line 1122, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/script/loopylooploop/loopylooploop.rpy", line 54, in <module>
+    $ loopy = LoopyLoopLoop(
+  File "game/script/loopylooploop/loopylooploop_py.rpy", line 21, in __init__
+    self.shuffle()
+  File "game/script/loopylooploop/loopylooploop_py.rpy", line 49, in shuffle
+    self.tileset[i][j].angle = random.randint(0,3)
+AttributeError: 'NoneType' object has no attribute 'angle'
+
+Windows-10-10.0.19042 AMD64
+Ren'Py 8.1.0.23051307
+Loopy loop loop 1.0
+Sun Jun 25 09:54:47 2023
